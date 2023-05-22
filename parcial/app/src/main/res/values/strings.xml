@@ -5,4 +5,5 @@
     <string name="text_new_festival">New Festival</string>
     <string name="hint_description">description</string>
     <string name="text_enviar">ENVIAR</string>
+    <string name="text_add_festival">Add festival</string>
 </resources>
