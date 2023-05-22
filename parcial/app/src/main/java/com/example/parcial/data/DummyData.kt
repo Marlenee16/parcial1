@@ -10,7 +10,7 @@ var festival = mutableListOf<FestivalModel>(
     ),
     FestivalModel(
         "Festival de",
-        "cojutepeque",
+        "san salvador",
 
     ),
 

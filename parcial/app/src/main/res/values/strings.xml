@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">parcial</string>
     <string name="text_festivales">FESTIVALES</string>
+    <string name="hint_name">name</string>
+    <string name="text_new_festival">New Festival</string>
+    <string name="hint_description">description</string>
+    <string name="text_enviar">ENVIAR</string>
 </resources>
