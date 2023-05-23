@@ -3,12 +3,32 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/fragmentList">
-
-    <fragment android:id="@+id/placeholder" />
+    app:startDestination="@id/listaFragment">
     <fragment
-        android:id="@+id/festivalFragment"
+        android:id="@+id/listaFragment"
+        android:name="com.example.parcial.ui.movie.listfestival.ListaFragment"
+        android:label="ListaFragment"
+        tools:layout="@layout/fragment_lista" >
+    >
+        <action
+            android:id="@+id/action_listaFragment3_to_festivalFragment2"
+            app:destination="@id/festivalFragment2" />
+        <action
+            android:id="@+id/action_listaFragment3_to_createFestivalFragment2"
+            app:destination="@id/createFestivalFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/festivalFragment2"
         android:name="com.example.parcial.ui.movie.FestivalFragment"
         android:label="fragment_festival"
         tools:layout="@layout/fragment_festival" />
+    <fragment
+        android:id="@+id/createFestivalFragment2"
+        android:name="com.example.parcial.ui.movie.newfestival.CreateFestivalFragment"
+        android:label="CreateFestivalFragment"
+        tools:layout="@layout/fragment_create_festival" />
+
 </navigation>
+
+
+

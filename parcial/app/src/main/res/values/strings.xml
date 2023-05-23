@@ -6,4 +6,6 @@
     <string name="hint_description">description</string>
     <string name="text_enviar">ENVIAR</string>
     <string name="text_add_festival">Add festival</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

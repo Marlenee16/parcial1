@@ -6,15 +6,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import com.example.parcial.data.festival
 import com.example.parcial.databinding.FragmentFestivalBinding
 import com.example.parcial.ui.movie.viewmodel.FestivalViewModel
 
-class FestivalFragment: Fragment() {
+class FestivalFragment: Fragment(){
 
     private lateinit var binding: FragmentFestivalBinding
 
-    private val movieViewModel: FestivalViewModel by activityViewModels{
+    private val festivalViewModel: FestivalViewModel by activityViewModels{
         FestivalViewModel.Factory
     }
 
@@ -33,5 +32,4 @@ class FestivalFragment: Fragment() {
         binding.viewmodel = festivalViewModel
         binding.lifecycleOwner = viewLifecycleOwner
     }
-
 }
